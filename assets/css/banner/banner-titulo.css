@@ -1,0 +1,24 @@
+.banner__titulo {
+    font-family: Pacifico, cursive;                   /* fonte importada no arquivo index.html */
+    color: #fdfdfd;
+    position: absolute;                              /* posição do texto absoluto na tela */
+    left: 50%;                                       /* alinhar texto a esquerda da tela */
+    top: 50%;                                        /* alinhar ao topo */
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);    /* definir uma sombra  no texto */
+    text-align: center;                              /* texto centralizado */
+    transform: translate(-50%, -50%);                
+    width: 100%;                                     /* texto ocupando toda tela */
+}
+
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;                         /* diminuir a fonte quando a tela for menor */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;                   /* fonte tamanho inicial definido quando a tela for maior */
+    }
+}

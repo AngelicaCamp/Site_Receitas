@@ -1,0 +1,6 @@
+.pessoa__nome {
+    margin: 1rem 0;                      /* margem vertical e nenhuma margem horizontal */
+    font-family: Pacifico, cursive;      /* definir fonte */
+    color: #8d0606;                    /* definir cor vinho */
+    font-size: 2rem;                     /* tamanho da fonte */
+}

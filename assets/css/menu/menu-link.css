@@ -1,0 +1,20 @@
+.menu__link {
+    text-decoration: none;       /* remover o sublinhado */
+    text-transform: lowercase;   /* deixar texto em minúsculo */
+    margin-right: 1.25rem;       /* espaçamento entre os itens do menu */
+    color: #808080;            /* cor dos itens do menu */
+}
+
+.menu__link:hover {
+    text-decoration: underline;   /* inserir o sublinhado - quando o mouse estiver posicionado em cima do item */
+}
+
+/* primeiro item do menu com cor e peso diferente  - não esquecer do ID no html*/
+.menu__link.ativo {       
+    color: #333333;
+    font-weight: bold;          /* deixar texto em negrito */
+}
+
+.menu__link:last-child {
+    margin-right: none;
+}

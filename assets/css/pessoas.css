@@ -1,0 +1,18 @@
+.pessoas {
+    display: flex;                     /* transformar em flexcontainer */
+    padding-top: 3rem;                 /* espaçamento entre a descrição */
+    justify-content: space-around;     /* elementos justificados de acordo com espaço na página */
+}
+
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;        /* aparecer 1 foto por vez */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;            /* aparecer as 3 fotos */
+    }
+}

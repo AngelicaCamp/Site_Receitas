@@ -1,0 +1,17 @@
+.pessoa {
+    display: flex;                   /* tranformar em flex container */
+    flex-direction: column;          /* listar as informações uma embaixo da outra */
+}
+
+
+@media screen and (min-width: 0) {
+    .pessoa {
+        margin-bottom: 2rem;         /* margem inferior entre as pessoas */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoa {
+        margin-bottom: 0;           /* sem margem inferior quando a tela for maior */
+    }
+}

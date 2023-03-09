@@ -1,0 +1,28 @@
+ .receita {
+    background: #fdfdfd;             /* fundo quase branco na div */
+    display: flex;                     /* elemento se comportando como flexbox */
+    flex-direction: column;            /* elementos alinhados em coluna */
+    margin-bottom: 5rem;               /* espaçamento inferior entre as divs*/
+}
+
+
+@media screen and (min-width: 0) {              /* tela de celular */
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {          /* tela de tablet */
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem)
+    }
+}
+
+@media screen and (min-width: 992px) {         /* tela de desktop */
+    .receita {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);      /* desconsiderar o espaço a direita */
+    }
+}

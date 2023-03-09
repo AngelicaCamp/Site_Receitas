@@ -1,0 +1,11 @@
+@media screen and (min-width: 0){
+    .logo {
+        display: none;                  /* remove o logo quando a tela é menor */
+    }
+}
+
+@media screen and (min-width: 768px){
+    .logo {
+        display: block;                /* mostra o logo quando a tela aumenta novamente */
+    }
+}

@@ -1,0 +1,5 @@
+.quem-somos__descricao {
+    font-weight: 100;         /* reduzir o peso da fonte e torna-lá mais clara */
+    font-size: 1.75rem;       /* ajustar o tamanho */
+    color: #595959;         /* definir a cor cinza */
+}
